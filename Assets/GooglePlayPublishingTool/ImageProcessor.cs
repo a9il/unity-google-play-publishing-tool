@@ -39,7 +39,10 @@ namespace AMG.GooglePlayPublishing
             var fileName = Utility.GetScreenshotFilename();
 
             byte[] bytes = CreateScreenshot(width, height, bitDepth);
-
+            if (!Directory.Exists(Constant.CreatedAssetDirectory))
+            {
+                Directory.CreateDirectory(Constant.CreatedAssetDirectory);
+            }
             var filePath = Path.Combine(Constant.CreatedAssetDirectory, fileName);
             File.WriteAllBytes(filePath, bytes);
             string pathLink = Utility.GeneratePathLink(filePath);
