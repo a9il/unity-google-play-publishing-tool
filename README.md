@@ -10,4 +10,4 @@ Unity Editor extension to help prepare asset for publishing android application 
 4. And then Google Play Publishing Tool window should shown.
 
 ## Usage Example
-![taking gameplay screenshot](https://youtu.be/1Ngd91qUnII)
+[![taking gameplay screenshot](https://img.youtube.com/vi/1Ngd91qUnII/maxresdefault.jpg)](https://youtu.be/1Ngd91qUnII)
